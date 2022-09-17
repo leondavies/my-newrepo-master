@@ -797,6 +797,16 @@ video {
   padding-right: 2rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -933,6 +943,10 @@ h3 {
 
   .md\:w-96 {
     width: 24rem;
+  }
+
+  .md\:w-80 {
+    width: 20rem;
   }
 
   .md\:max-w-sm {
