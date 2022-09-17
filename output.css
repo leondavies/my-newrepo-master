@@ -862,6 +862,10 @@ h3 {
   .sm\:block {
     display: block;
   }
+
+  .sm\:hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
