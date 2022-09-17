@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Apercu";
+    src: url("./fonts/ApercuPro-Regular.woff2");
+}
+
+@font-face {
+    font-family: "Kilimanjaro";
+    src: url("./fonts/Kilimanjaro-Sans.otf");
+}
+
+@font-face {
+    font-family: "KilimanjaroItalic";
+    src: url("./fonts/Kilimanjaro-Sans-Slanted-Tall.otf");
+}
+
+
+h1, h2, h3
+{
+    @apply font-kilimanjaro;
+}
+
+h1
+{
+    @apply text-5xl;
+}
+
+h2
+{
+    @apply text-8xl;
+}
+
+h3
+{
+    @apply text-5xl;
+}
